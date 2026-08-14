@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>KFC - Contact Us</title>
+</head>
+
+<body>
+
+    <header>
+        <!-- Header contains the KFC logo and navigation menu -->
+        <div>
+            <h1>KFC</h1>
+        </div>
+
+        <nav>
+            <ul>
+                <!-- Navigation menu -->
+                <li>
+                    <a href="index.html">Home</a>
+                </li>
+
+                <li>
+                    <a href="about_us.html">About Us</a>
+                </li>
+
+                <li>
+                    <a href="services.html">Our Services</a>
+                </li>
+
+                <li>
+                    <a href="products.html">Our Menu</a>
+                </li>
+
+                <li>
+                    <a href="enquiry.html">Enquiries</a>
+                </li>
+
+                <li>
+                    <a href="contact.html">Contact Us</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+
+    <main>
+
+        <!-- CONTACT INFORMATION -->
+        <section id="contact-information">
+
+            <h2>Contact KFC</h2>
+
+            <p>
+                We would love to hear from you. If you have any questions,
+                suggestions, complaints or general enquiries, please
+                contact us using the information below.
+            </p>
+
+            <h3>Contact Information</h3>
+
+            <p>
+                <strong>Customer Service:</strong>
+                0860 100 222
+            </p>
+
+            <p>
+                <strong>Email:</strong>
+                kfccustomercare@dsg.co.za
+            </p>
+
+            <p>
+                <strong>Website:</strong>
+                www.kfc.co.za
+            </p>
+
+            <p>
+                <strong>Operating Hours:</strong>
+                Monday - Sunday, 09:00 - 22:00
+            </p>
+
+        </section>
+
+
+        <!-- KFC LOCATIONS -->
+        <section id="locations">
+
+            <h2>Find a KFC Restaurant</h2>
+
+            <p>
+                KFC has restaurants in many locations. Below are some
+                example locations where customers can find a KFC
+                restaurant.
+            </p>
+
+
+            <!-- LOCATION 1 -->
+            <div class="location">
+
+                <h3>Johannesburg</h3>
+
+                <p>
+                    KFC Johannesburg
+                </p>
+
+                <p>
+                    Johannesburg, Gauteng, South Africa
+                </p>
+
+                <!-- Map for Johannesburg -->
+                <iframe src="https://www.google.com/maps?q=KFC+Johannesburg+South+Africa&output=embed" width="600"
+                    height="300" style="border:0;" allowfullscreen="" loading="lazy">
+                </iframe>
+
+            </div>
+
+
+            <br>
+
+
+            <!-- LOCATION 2 -->
+            <div class="location">
+
+                <h3>Pretoria</h3>
+
+                <p>
+                    KFC Pretoria
+                </p>
+
+                <p>
+                    Pretoria, Gauteng, South Africa
+                </p>
+
+                <!-- Map for Pretoria -->
+                <iframe src="https://www.google.com/maps?q=KFC+Pretoria+South+Africa&output=embed" width="600"
+                    height="300" style="border:0;" allowfullscreen="" loading="lazy">
+                </iframe>
+
+            </div>
+
+
+            <br>
+
+
+            <!-- LOCATION 3 -->
+            <div class="location">
+
+                <h3>Cape Town</h3>
+
+                <p>
+                    KFC Cape Town
+                </p>
+
+                <p>
+                    Cape Town, Western Cape, South Africa
+                </p>
+
+                <!-- Map for Cape Town -->
+                <iframe src="https://www.google.com/maps?q=KFC+Cape+Town+South+Africa&output=embed" width="600"
+                    height="300" style="border:0;" allowfullscreen="" loading="lazy">
+                </iframe>
+
+            </div>
+
+        </section>
+
+
+        <!-- CONTACT FORM -->
+        <section id="contact-form">
+
+            <h2>Send Us a Message</h2>
+
+            <p>
+                Complete the form below and send us your message,
+                question or feedback.
+            </p>
+
+
+            <form action="#" method="post">
+
+                <!-- Full Name -->
+                <label for="full-name">
+                    Full Name:
+                </label>
+
+                <br>
+
+                <input type="text" id="full-name" name="full-name" placeholder="Enter your full name" required>
+
+                <br><br>
+
+
+                <!-- Email -->
+                <label for="email">
+                    Email Address:
+                </label>
+
+                <br>
+
+                <input type="email" id="email" name="email" placeholder="Enter your email address" required>
+
+                <br><br>
+
+
+                <!-- Phone -->
+                <label for="phone">
+                    Phone Number:
+                </label>
+
+                <br>
+
+                <input type="tel" id="phone" name="phone" placeholder="Enter your phone number">
+
+                <br><br>
+
+
+                <!-- Subject -->
+                <label for="subject">
+                    Subject:
+                </label>
+
+                <br>
+
+                <input type="text" id="subject" name="subject" placeholder="Enter the subject" required>
+
+                <br><br>
+
+
+                <!-- Reason for Contact -->
+                <label for="reason">
+                    Reason for Contact:
+                </label>
+
+                <br>
+
+                <select id="reason" name="reason" required>
+
+                    <option value="">
+                        -- Select an option --
+                    </option>
+
+                    <option value="general-enquiry">
+                        General Enquiry
+                    </option>
+
+                    <option value="complaint">
+                        Complaint
+                    </option>
+
+                    <option value="compliment">
+                        Compliment
+                    </option>
+
+                    <option value="suggestion">
+                        Suggestion
+                    </option>
+
+                    <option value="product-enquiry">
+                        Product Enquiry
+                    </option>
+
+                </select>
+
+                <br><br>
+
+
+                <!-- Message -->
+                <label for="message">
+                    Message:
+                </label>
+
+                <br>
+
+                <textarea id="message" name="message" rows="7" cols="50" placeholder="Enter your message here..."
+                    required></textarea>
+
+                <br><br>
+
+
+                <!-- Submit and Reset buttons -->
+                <input type="submit" value="Send Message">
+
+                <input type="reset" value="Clear Form">
+
+            </form>
+
+        </section>
+
+    </main>
+
+
+    <!-- FOOTER -->
+    <footer>
+
+        <p>
+            Contact Email: kfccustomercare@dsg.co.za
+        </p>
+
+        <p>
+            Customer Service: 0860 100 222
+        </p>
+
+        <p>
+            &copy; 2026 KFC. All Rights Reserved.
+        </p>
+
+    </footer>
+
+</body>
+
+</html>
