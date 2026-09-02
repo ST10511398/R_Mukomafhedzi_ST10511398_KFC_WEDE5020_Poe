@@ -2,23 +2,42 @@
 
 ## Project Title : KFC
 
-## Student Information
-STUDENT : ST10511398
-STUDENT FULL NAME: Rudzani Mukomafhedzi
-GROUP:04
-YEAR: 1
-MODULE: Web Development (Introduction)
-MODULE CODE: WEDE5020
+**KFC**
 
-##PROJECT OVERVIEW: KFC has grown into a global fast-food giant famous for its fried chicken, originally starting 
+-my project is about a franchise organisation
+
+---
+
+
+
+## Student Information
+|---|---|
+|STUDENT NUMBER: |ST10511398|
+|STUDENT FULL NAME: |Rudzani Mukomafhedzi|
+|GROUP:|04|
+|YEAR:| 1 |
+|MODULE: |Web Development (Introduction)|
+|MODULE CODE: | WEDE5020|
+|LECTURE:|DEOGRATIAS PHIRI |
+
+---
+
+##PROJECT OVERVIEW
+
+KFC has grown into a global fast-food giant famous for its fried chicken, originally starting 
 back in 1952 when Colonel Harland Sanders opened the first restaurant in the US. The 
 brand made its way to South Africa in 1971 and quickly became a household favorite. 
 Today, you can find hundreds of spots spread across all nine provinces, feeding millions of 
 hungry customers every year. Beyond serving meals, KFC plays a big role in local 
 communities by creating jobs and running initiatives that give back. 
 
+---
 
-##WEBSITE GOALS AND OVERVIEW: The main goal of the KFC South Africa website is to provide customers with a fast, user
+
+##WEBSITE GOALS AND OVERVIEW
+
+
+The main goal of the KFC South Africa website is to provide customers with a fast, user
 friendly, and convenient platform for ordering food online. The website should effectively 
 showcase KFC's menu, special promotions, and new products while making it easy for 
 customers to locate nearby restaurants and access important information such as 
@@ -26,6 +45,23 @@ operating hours and contact details. In addition, the website should strengthen 
 engagement by providing a seamless browsing experience that encourages repeat visits 
 and increases online sales. 
 
+---
+
+
+## Key Features and Functionallity
+*Describe the main features of the website. Be specific about what each page/component does.*
+//do it like the student information
+
+
+---
+
+##Timeline and Milestones
+*show how the project is planned across the full POE(all parts), and what haas been completed so far.*
+|Milestone | Target Date |Status
+|---|---|
+
+
+---
 
 
 ##PART ONE DETAILS: 
