@@ -97,6 +97,7 @@ The website is a multi-page KFC informational website developed to provide visit
 | 2026-08-01 | v1.0 | Initial repository setup, added folder structure | R.Mukomafhedzi |
 | 2026-09-12 | v2.1 | Added initial style.css | R.Mukomafhedzi |
 | 2026-09-17 | v3.2 | changed the image folder to images | R.Mukomafhedzi |
+| 2026-09-17 | v4.3 | Added the external style.css link | R.Mukomafhedzi |
 
 
 ---
