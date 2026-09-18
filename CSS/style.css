@@ -1,1 +1,620 @@
-*
+/* =========================
+   CSS RESET
+========================= */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 16px;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    font-size: 1rem;
+    line-height: 1.6;
+    color: #222;
+    background-color: #f5f5f5;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+a {
+    color: inherit;
+}
+
+
+/* =========================
+   HEADER AND NAVIGATION
+========================= */
+
+header {
+    background-color: #d40000;
+    color: white;
+    padding: 1rem 5%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+header h1 {
+    font-size: 2rem;
+    letter-spacing: 0.1rem;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+    list-style: none;
+}
+
+nav a {
+    text-decoration: none;
+    font-weight: bold;
+    padding: 0.5rem 0.75rem;
+    border-radius: 0.25rem;
+    transition: background-color 0.3s ease;
+}
+
+nav a:hover,
+nav a:focus {
+    background-color: white;
+    color: #d40000;
+}
+
+
+/* =========================
+   MAIN CONTENT
+========================= */
+
+main {
+    width: 90%;
+    max-width: 1200px;
+    margin: 2rem auto;
+}
+
+section {
+    background-color: white;
+    padding: 2rem;
+    margin-bottom: 2rem;
+    border-radius: 0.5rem;
+    box-shadow: 0 0.125rem 0.5rem rgba(0, 0, 0, 0.08);
+}
+
+h2 {
+    color: #d40000;
+    font-size: 1.75rem;
+    line-height: 1.3;
+    margin-bottom: 1rem;
+}
+
+h3 {
+    font-size: 1.25rem;
+    margin-bottom: 0.5rem;
+}
+
+p {
+    margin-bottom: 1rem;
+}
+
+
+/* =========================
+   HOME PAGE
+========================= */
+
+#hero-section {
+    background-color: white;
+    padding: 3rem 2rem;
+    margin-bottom: 2rem;
+    border-radius: 0.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3rem;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+#hero-section img {
+    flex: 1 1 15rem;
+    width: 100%;
+    max-width: 20rem;
+    border-radius: 0.5rem;
+}
+
+#hero-section div {
+    flex: 1 1 20rem;
+}
+
+#hero-section h3 {
+    font-size: 1.5rem;
+    color: #555;
+    margin-bottom: 0.5rem;
+}
+
+#hero-section h2 {
+    font-size: 2.25rem;
+    color: #d40000;
+    line-height: 1.2;
+}
+
+#hero-section a {
+    display: inline-block;
+    background-color: #d40000;
+    color: white;
+    padding: 0.75rem 1.5rem;
+    margin: 0.5rem;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 0.25rem;
+    transition: background-color 0.3s ease;
+}
+
+#hero-section a:hover,
+#hero-section a:focus {
+    background-color: #a80000;
+}
+
+
+/* =========================
+   ABOUT US SUMMARY
+========================= */
+
+#about-introduction,
+#history,
+#mission,
+#vision {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    flex-wrap: wrap;
+}
+
+#about-introduction img,
+#history img,
+#mission img,
+#vision img {
+    width: 100%;
+    max-width: 20rem;
+    border-radius: 0.5rem;
+}
+
+#about-introduction div,
+#history div,
+#mission div,
+#vision div {
+    flex: 1 1 20rem;
+}
+
+
+/* =========================
+   TEAM SECTION
+========================= */
+
+#team {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.5rem;
+}
+
+#team h2 {
+    grid-column: 1 / -1;
+}
+
+.team-member {
+    background-color: #fafafa;
+    border: 1px solid #ddd;
+    border-radius: 0.5rem;
+    padding: 1.5rem;
+    text-align: center;
+}
+
+.team-member img {
+    width: 100%;
+    max-width: 15rem;
+    height: 12.5rem;
+    object-fit: cover;
+    border-radius: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+.team-member h3 {
+    color: #d40000;
+}
+
+
+/* =========================
+   PRODUCTS PAGE
+========================= */
+
+#products,
+#menu {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.5rem;
+}
+
+#products h2,
+#menu h2 {
+    grid-column: 1 / -1;
+}
+
+.product {
+    background-color: #fafafa;
+    border: 1px solid #ddd;
+    border-radius: 0.5rem;
+    padding: 1.5rem;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.product:hover {
+    transform: translateY(-0.25rem);
+    box-shadow: 0 0.25rem 0.75rem rgba(0, 0, 0, 0.15);
+}
+
+.product img {
+    width: 100%;
+    max-width: 15rem;
+    height: 12.5rem;
+    object-fit: cover;
+    border-radius: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+.product h3 {
+    color: #d40000;
+    font-size: 1.25rem;
+}
+
+.product .price {
+    color: #222;
+    font-size: 1.1rem;
+    margin-top: auto;
+}
+
+#special-offers {
+    text-align: center;
+}
+
+
+/* =========================
+   SERVICES PAGE
+========================= */
+
+#services {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.5rem;
+}
+
+#services h2 {
+    grid-column: 1 / -1;
+}
+
+.service {
+    background-color: #fafafa;
+    border: 1px solid #ddd;
+    border-radius: 0.5rem;
+    padding: 1.5rem;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.service:hover {
+    transform: translateY(-0.25rem);
+    box-shadow: 0 0.25rem 0.75rem rgba(0, 0, 0, 0.15);
+}
+
+.service img {
+    width: 100%;
+    max-width: 15rem;
+    height: 12.5rem;
+    object-fit: cover;
+    border-radius: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+.service h3 {
+    color: #d40000;
+    font-size: 1.25rem;
+}
+
+
+/* =========================
+   CONTACT PAGE
+========================= */
+
+#contact-information p {
+    margin-bottom: 0.75rem;
+}
+
+#contact-information strong {
+    color: #d40000;
+}
+
+#locations {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.location {
+    background-color: #fafafa;
+    border: 1px solid #ddd;
+    border-radius: 0.5rem;
+    padding: 1.5rem;
+}
+
+.location h3 {
+    color: #d40000;
+}
+
+.location iframe {
+    width: 100%;
+    height: 20rem;
+    border: 0;
+    border-radius: 0.5rem;
+    margin-top: 1rem;
+}
+
+
+/* =========================
+   FORMS
+========================= */
+
+#product-enquiry form,
+#contact-form form {
+    max-width: 50rem;
+    margin-top: 1.5rem;
+}
+
+#product-enquiry form label,
+#contact-form form label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+}
+
+#product-enquiry form input,
+#product-enquiry form select,
+#product-enquiry form textarea,
+#contact-form form input,
+#contact-form form select,
+#contact-form form textarea {
+    width: 100%;
+    padding: 0.75rem;
+    font-family: inherit;
+    font-size: 1rem;
+    line-height: 1.5;
+    border: 1px solid #ccc;
+    border-radius: 0.25rem;
+    background-color: white;
+    margin-bottom: 1rem;
+}
+
+#product-enquiry form textarea,
+#contact-form form textarea {
+    resize: vertical;
+}
+
+#product-enquiry form input:focus,
+#product-enquiry form select:focus,
+#product-enquiry form textarea:focus,
+#contact-form form input:focus,
+#contact-form form select:focus,
+#contact-form form textarea:focus {
+    outline: 0.15rem solid #d40000;
+    outline-offset: 0.1rem;
+    border-color: #d40000;
+}
+
+
+/* Radio buttons */
+
+#product-enquiry form input[type="radio"],
+#contact-form form input[type="radio"] {
+    width: auto;
+    margin-right: 0.5rem;
+    accent-color: #d40000;
+}
+
+
+/* Submit and reset buttons */
+
+#product-enquiry form input[type="submit"],
+#product-enquiry form input[type="reset"],
+#contact-form form input[type="submit"],
+#contact-form form input[type="reset"] {
+    width: auto;
+    background-color: #d40000;
+    color: white;
+    border: none;
+    padding: 0.75rem 1.5rem;
+    font-size: 1rem;
+    font-weight: bold;
+    border-radius: 0.25rem;
+    cursor: pointer;
+    margin-right: 0.75rem;
+}
+
+#product-enquiry form input[type="submit"]:hover,
+#contact-form form input[type="submit"]:hover {
+    background-color: #a80000;
+}
+
+#product-enquiry form input[type="reset"],
+#contact-form form input[type="reset"] {
+    background-color: #555;
+}
+
+#product-enquiry form input[type="reset"]:hover,
+#contact-form form input[type="reset"]:hover {
+    background-color: #333;
+}
+
+
+/* =========================
+   FOOTER
+========================= */
+
+footer {
+    background-color: #222;
+    color: white;
+    text-align: center;
+    padding: 2rem 5%;
+    margin-top: 2rem;
+}
+
+footer p {
+    margin-bottom: 0.5rem;
+}
+
+
+/* =========================
+   TABLET
+========================= */
+
+@media (max-width: 768px) {
+
+    header {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    nav ul {
+        flex-direction: column;
+        gap: 0.5rem;
+    }
+
+    main {
+        width: 92%;
+        margin: 1.5rem auto;
+    }
+
+    section {
+        padding: 1.5rem;
+    }
+
+    #hero-section {
+        padding: 2rem 1.5rem;
+        gap: 1.5rem;
+    }
+
+    #hero-section h2 {
+        font-size: 1.8rem;
+    }
+
+    #team,
+    #products,
+    #menu,
+    #services {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+
+/* =========================
+   MOBILE
+========================= */
+
+@media (max-width: 480px) {
+
+    html {
+        font-size: 15px;
+    }
+
+    header {
+        padding: 1rem;
+    }
+
+    header h1 {
+        font-size: 1.75rem;
+    }
+
+    main {
+        width: 94%;
+        margin: 1rem auto;
+    }
+
+    section {
+        padding: 1rem;
+    }
+
+    #hero-section {
+        padding: 1.5rem 1rem;
+    }
+
+    #hero-section h3 {
+        font-size: 1.25rem;
+    }
+
+    #hero-section h2 {
+        font-size: 1.6rem;
+    }
+
+    #about-introduction,
+    #history,
+    #mission,
+    #vision {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    #about-introduction div,
+    #history div,
+    #mission div,
+    #vision div {
+        text-align: left;
+    }
+
+    #team,
+    #products,
+    #menu,
+    #services {
+        grid-template-columns: 1fr;
+    }
+
+    .team-member,
+    .product,
+    .service {
+        padding: 1rem;
+    }
+
+    .team-member img,
+    .product img,
+    .service img {
+        max-width: 18rem;
+    }
+
+    #product-enquiry form input[type="submit"],
+    #product-enquiry form input[type="reset"],
+    #contact-form form input[type="submit"],
+    #contact-form form input[type="reset"] {
+        width: 100%;
+        margin-bottom: 0.5rem;
+        margin-right: 0;
+    }
+
+    footer {
+        padding: 1.5rem 1rem;
+    }
+}
