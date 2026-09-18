@@ -4,7 +4,7 @@
 
 **KFC**
 
--my project is about a franchise organisation
+-my project is about a fast-food restaurant specializing in delicious chicken meals 
 
 ---
 
@@ -51,14 +51,29 @@ and increases online sales.
 ## Key Features and Functionallity
 *Describe the main features of the website. Be specific about what each page/component does.*
 //do it like the student information
+|---|---|
+|Home Page: |Introduces KFC, highlights promotions and provides links to all              other pages|
+|About Us Page: |Gives information about KFC's history, mission, vision and                   team|
+|Our Services Page: |Describes the different services offered (dine-in,                           takeaway, delivery, online ordering, catering and                            customer services)|
+|Our Menu Page: |Displays menu items with descriptions and prices|
+|Enquiries Page: |Provides an online form for customers to submit enquiries|
+|Contact Us Page: |Shows contact details and a contact form with a map of                       locations|
+|Responsive Design: |The website adapts screen sizes using CSS media queries                      and relative units|
+|External CSS: |A shared stylesheet (style.css) is used to style all pages                   consistently|
 
 
 ---
 
 ##Timeline and Milestones
 *show how the project is planned across the full POE(all parts), and what haas been completed so far.*
-|Milestone | Target Date |Status
-|---|---|
+|Milestone | Target Date |Status|
+|---|---|---|
+| Planning & Wireframing | 06/08/2026 | Complete |
+| Part 1: Submit Proposal and Semantic HTML structure | 20/08/2026 |                   Complete |
+| Add external CSS styling and mobile responsiveness | 14/09/2026 |
+| Part 2: Submit CSS and responsiveness to website | 15/09/2026 | Complete |
+| Part 3: Adding JavaScript and interactivity | 14/10/2026 | Planned |
+| Final Testing & Submission | 26/10/2026 | Planned |
 
 
 ---
