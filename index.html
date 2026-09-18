@@ -116,7 +116,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>KFC - Enquiries</title>
+    <title>KFC Home</title>
 
     <!-- External CSS stylesheet -->
     <link rel="stylesheet" href="css/style.css">
@@ -128,14 +128,16 @@
     <header class="site-header">
 
         <div class="logo">
-            <h1>KFC</h1>
+            <h1>KFC.</h1>
         </div>
 
         <!-- Navigation menu -->
         <nav class="navigation">
+
             <ul>
+
                 <li>
-                    <a href="index.html">Home</a>
+                    <a href="index.html" class="active">Home</a>
                 </li>
 
                 <li>
@@ -147,17 +149,19 @@
                 </li>
 
                 <li>
-                    <a href="products.html">Our Menu</a>
+                    <a href="products.html">Our Products</a>
                 </li>
 
                 <li>
-                    <a href="enquiry.html" class="active">Enquiries</a>
+                    <a href="enquiry.html">Enquiries</a>
                 </li>
 
                 <li>
                     <a href="contact.html">Contact Us</a>
                 </li>
+
             </ul>
+
         </nav>
 
     </header>
@@ -166,263 +170,91 @@
     <!-- MAIN CONTENT -->
     <main>
 
-        <!-- ENQUIRY INTRODUCTION -->
-        <section id="enquiry-introduction" class="content-section">
+        <!-- HERO SECTION -->
+        <section id="hero-section" class="hero-section">
 
-            <h2>Product Enquiry</h2>
+            <div class="hero-image">
 
-            <p>
-                Interested in one of our KFC products? Complete the form
-                below and send us your enquiry.
-            </p>
+                <img
+                    src="images/kfc.jpg"
+                    width="200"
+                    height="200"
+                    alt="KFC fried chicken">
+
+            </div>
+
+            <div class="hero-text">
+
+                <h3>Welcome to KFC</h3>
+
+                <h2>Finger lickin' Good Chicken</h2>
+
+                <p>
+                    Enjoy delicious, crispy fried chicken and tasty meals
+                    made for everyone.
+                </p>
+
+                <!-- Call-to-action buttons -->
+                <div class="call-to-action-btn">
+
+                    <a href="products.html">
+                        View Our Meals
+                    </a>
+
+                    <a href="enquiry.html">
+                        Make an Enquiry
+                    </a>
+
+                </div>
+
+            </div>
 
         </section>
 
 
-        <!-- PRODUCT ENQUIRY FORM -->
-        <section id="product-enquiry" class="content-section">
+        <!-- ABOUT KFC SECTION -->
+        <section id="brief-info" class="content-section">
 
-            <h2>Enquire About Our Products</h2>
+            <h2>About KFC</h2>
 
-            <form action="#" method="post" class="enquiry-form">
+            <div class="summary-content">
 
-                <!-- Customer Name -->
-                <div class="form-group">
+                <div class="summary-image">
 
-                    <label for="full-name">
-                        Full Name:
-                    </label>
-
-                    <input
-                        type="text"
-                        id="full-name"
-                        name="full-name"
-                        placeholder="Enter your full name"
-                        required>
+                    <img
+                        src="images/LOGO.jpg"
+                        width="200"
+                        height="200"
+                        alt="KFC logo">
 
                 </div>
 
+                <div class="summary-text">
 
-                <!-- Email -->
-                <div class="form-group">
+                    <p>
+                        KFC is a popular fast food restaurant known for its
+                        delicious fried chicken and unique blend of herbs
+                        and spices.
+                    </p>
 
-                    <label for="email">
-                        Email Address:
-                    </label>
+                    <p>
+                        We offer a variety of meals including chicken pieces,
+                        burgers, wraps, chips and family meals.
+                    </p>
 
-                    <input
-                        type="email"
-                        id="email"
-                        name="email"
-                        placeholder="Enter your email"
-                        required>
+                    <p>
+                        Our goal is to provide customers with tasty food
+                        and a convenient dining experience.
+                    </p>
 
-                </div>
-
-
-                <!-- Phone Number -->
-                <div class="form-group">
-
-                    <label for="phone">
-                        Phone Number:
-                    </label>
-
-                    <input
-                        type="tel"
-                        id="phone"
-                        name="phone"
-                        placeholder="Enter your phone number"
-                        required>
+                    <p>
+                        Whether you are eating alone, with friends or
+                        with family, KFC has a meal for everyone.
+                    </p>
 
                 </div>
 
-
-                <!-- Product Selection -->
-                <div class="form-group">
-
-                    <label for="product">
-                        Select Product:
-                    </label>
-
-                    <select id="product" name="product" required>
-
-                        <option value="">
-                            -- Select a Product --
-                        </option>
-
-                        <option value="fried-chicken">
-                            Fried Chicken
-                        </option>
-
-                        <option value="zinger-burger">
-                            Zinger Burger
-                        </option>
-
-                        <option value="twister">
-                            Twister
-                        </option>
-
-                        <option value="chicken-bucket">
-                            Chicken Bucket
-                        </option>
-
-                        <option value="family-meal">
-                            Family Meal
-                        </option>
-
-                        <option value="chips">
-                            Chips
-                        </option>
-
-                        <option value="soft-drink">
-                            Soft Drink
-                        </option>
-
-                    </select>
-
-                </div>
-
-
-                <!-- Quantity -->
-                <div class="form-group">
-
-                    <label for="quantity">
-                        Quantity:
-                    </label>
-
-                    <input
-                        type="number"
-                        id="quantity"
-                        name="quantity"
-                        min="1"
-                        max="20"
-                        value="1"
-                        required>
-
-                </div>
-
-
-                <!-- Enquiry Type -->
-                <div class="form-group">
-
-                    <label for="enquiry-type">
-                        Enquiry Type:
-                    </label>
-
-                    <select id="enquiry-type" name="enquiry-type" required>
-
-                        <option value="">
-                            -- Select Enquiry Type --
-                        </option>
-
-                        <option value="price">
-                            Product Price
-                        </option>
-
-                        <option value="availability">
-                            Product Availability
-                        </option>
-
-                        <option value="ingredients">
-                            Product Ingredients
-                        </option>
-
-                        <option value="order">
-                            Placing an Order
-                        </option>
-
-                        <option value="other">
-                            Other
-                        </option>
-
-                    </select>
-
-                </div>
-
-
-                <!-- Order Preference -->
-                <fieldset class="form-group order-preference">
-
-                    <legend>
-                        How would you like to receive your order?
-                    </legend>
-
-                    <div class="radio-option">
-
-                        <input
-                            type="radio"
-                            id="dine-in"
-                            name="order-type"
-                            value="dine-in">
-
-                        <label for="dine-in">
-                            Dine-In
-                        </label>
-
-                    </div>
-
-                    <div class="radio-option">
-
-                        <input
-                            type="radio"
-                            id="takeaway"
-                            name="order-type"
-                            value="takeaway">
-
-                        <label for="takeaway">
-                            Takeaway
-                        </label>
-
-                    </div>
-
-                    <div class="radio-option">
-
-                        <input
-                            type="radio"
-                            id="delivery"
-                            name="order-type"
-                            value="delivery">
-
-                        <label for="delivery">
-                            Delivery
-                        </label>
-
-                    </div>
-
-                </fieldset>
-
-
-                <!-- Customer Message -->
-                <div class="form-group">
-
-                    <label for="message">
-                        Your Enquiry:
-                    </label>
-
-                    <textarea
-                        id="message"
-                        name="message"
-                        rows="6"
-                        placeholder="Enter your enquiry here..."
-                        required></textarea>
-
-                </div>
-
-
-                <!-- Submit and Reset Buttons -->
-                <div class="form-buttons">
-
-                    <button type="submit">
-                        Submit Enquiry
-                    </button>
-
-                    <button type="reset" class="reset-button">
-                        Clear Form
-                    </button>
-
-                </div>
-
-            </form>
+            </div>
 
         </section>
 
@@ -445,3 +277,4 @@
 </body>
 
 </html>
+
