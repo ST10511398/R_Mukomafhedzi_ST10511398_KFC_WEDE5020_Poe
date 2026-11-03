@@ -58,6 +58,9 @@ and increases online sales.
 |Contact Us Page: |Shows contact details and a contact form with a map of                       locations|
 |Responsive Design: |The website adapts screen sizes using CSS media queries                      and relative units|
 |External CSS: |A shared stylesheet (style.css) is used to style all pages                   consistently|
+|Image Optimization and Interactive Image Display: |KFC-related images have been included throughout the website to improve its visual appearance|
+|Search Engine Optimization (SEO): |SEO improvements have been added to help search engines understand the website's content|
+
 
 
 ---
@@ -69,8 +72,8 @@ and increases online sales.
 | Part 1: Submit Proposal and Semantic HTML structure | 20/08/2026 |                   Complete |
 | Add external CSS styling and mobile responsiveness | 14/09/2026 | Completed |
 | Part 2: Submit CSS and responsiveness to website | 15/09/2026 | Complete |
-| Part 3: Adding JavaScript and interactivity | 14/10/2026 | Planned |
-| Final Testing & Submission | 26/10/2026 | Planned |
+| Part 3: Adding JavaScript and interactivity | 14/10/2026 | Complete |
+| Final Testing & Submission | 26/10/2026 | Complete |
 
 
 ---
@@ -86,6 +89,19 @@ For this submission, a multi-page KFC website was developed using HTML. The webs
 The website is a multi-page KFC informational website developed to provide visitors with information about KFC, its background, services, menu/products and contact details. It consists of index.html, about_us.html, services.html, products.html, enquiry.html, contact.html and an external style.css file. The website includes a consistent navigation menu, KFC-related images, an enquiry form for customer questions and contact information. The style.css file provides the overall design, including colours, fonts, spacing, images, navigation and form styling. Responsive design is also included so that the website can adapt to smaller screens and mobile devices. Overall, the website provides a structured and user-friendly platform for visitors to learn about KFC, view its products and services, and communicate with the business.
 
 
+---
+##PART THREE DETAILS:
+JavaScript functionality has also been added to make the website more interactive and user-friendly. These features include a personalised welcome message on the homepage, Read More buttons that display additional information, interactive team member descriptions, service and product search functions, category filters, product price sorting and a meal price calculator. The website also includes form validation, feedback messages, image lightbox functionality, automatic copyright year updates and a Back to Top button to improve navigation.
+
+Search Engine Optimisation (SEO) improvements have been incorporated into the HTML code to help search engines understand the website's content. These improvements include relevant keywords, descriptive page titles, meta descriptions, organised heading tags, canonical URLs and internal links between website pages. Image optimisation techniques, such as descriptive alternative text, lazy loading and asynchronous image decoding, have also been added to improve accessibility and support website performance.
+
+Website security measures have also been considered to help protect visitors and improve the reliability of the website. HTML form validation is used to check user input, while safe JavaScript methods can help reduce cross-site scripting (XSS) risks. Additional security measures, including HTTPS, Content Security Policy (CSP) and security headers, can be configured when the website is published through a hosting provider such as Netlify.
+
+The website also includes customer interaction features, such as a newsletter registration form, feedback form, service enquiry form, product enquiry form and contact form. These forms allow visitors to interact with the website and provide information or questions. The forms currently demonstrate client-side functionality and would require a secure backend or form service to process and store real customer submissions.
+
+Overall, the KFC website provides a structured, responsive, interactive and user-friendly platform where visitors can learn about KFC, explore its products and services, search for information and access contact details. The improvements made to the HTML, CSS and JavaScript code aim to enhance the website's appearance, functionality, accessibility, search engine optimisation and security.
+
+
 ##SITEMAP <img width="757" height="253" alt="image" src="https://github.com/user-attachments/assets/d3197b84-c5ab-493c-82a4-04ba5a827776" />
 
 
@@ -98,8 +114,9 @@ The website is a multi-page KFC informational website developed to provide visit
 | 2026-09-12 | v2.1 | Added initial style.css | R.Mukomafhedzi |
 | 2026-09-17 | v3.2 | changed the image folder to images | R.Mukomafhedzi |
 | 2026-09-17 | v4.3 | Added the external style.css link | R.Mukomafhedzi |
-
-
+| 2026-11-02 | v5.4 | Added JavaScript in all of the pages | R.Mukomafhedzi |
+| 2026-11-02 | v6.5 | Added a sitemap.xml file | R.Mukomafhedzi |
+| 2026-11-02 | v7.6 | Added a robots.txt file | R.Mukomafhedzi |
 ---
 
 
