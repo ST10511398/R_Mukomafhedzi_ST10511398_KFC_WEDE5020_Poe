@@ -650,3 +650,425 @@
 </body>
 
 </html>
+
+---
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+    <!-- MOBILE-FRIENDLINESS -->
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <!-- SEO: KEYWORD RESEARCH -->
+    <!-- Primary Keyword: KFC product enquiries South Africa -->
+    <!-- Secondary Keywords:
+         KFC menu enquiries,
+         KFC product prices,
+         KFC ingredients,
+         KFC product availability,
+         chicken bucket,
+         Zinger Burger,
+         Twister Wrap
+    -->
+
+    <!-- SEO TITLE -->
+    <title>KFC Product Enquiries South Africa | Menu & Prices</title>
+
+    <!-- SEO META DESCRIPTION -->
+    <meta name="description"
+          content="Explore KFC product enquiries in South Africa. Ask about menu items, example prices, ingredients, availability and ordering through our demonstration enquiry form.">
+
+    <!-- SEO KEYWORDS -->
+    <meta name="keywords"
+          content="KFC product enquiries South Africa,
+          KFC menu enquiries, KFC product prices,
+          KFC ingredients, KFC product availability,
+          chicken bucket, Zinger Burger, Twister Wrap">
+
+    <!-- CANONICAL URL -->
+    <link rel="canonical"
+          href="https://www.yourwebsite.co.za/enquiry.html">
+
+    <!-- EXTERNAL RESPONSIVE CSS -->
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+
+    <!-- HEADER -->
+    <header class="site-header">
+
+        <div class="logo">
+            <h1>KFC</h1>
+        </div>
+
+        <!-- MOBILE-FRIENDLY NAVIGATION -->
+        <nav class="navigation" aria-label="Main navigation">
+
+            <ul>
+                <li><a href="index.html">Home</a></li>
+
+                <li><a href="about_us.html">About Us</a></li>
+
+                <li><a href="services.html">Our Services</a></li>
+
+                <li><a href="products.html">Our Menu</a></li>
+
+                <li>
+                    <a href="enquiry.html"
+                       class="active"
+                       aria-current="page">
+                        Enquiries
+                    </a>
+                </li>
+
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+
+        </nav>
+
+    </header>
+
+
+    <!-- MAIN CONTENT -->
+    <main>
+
+        <!-- ENQUIRY INTRODUCTION -->
+        <section id="enquiry-introduction"
+                 class="content-section">
+
+            <!-- SEO KEYWORD IN HEADING -->
+            <h2>KFC Product Enquiries South Africa</h2>
+
+            <p>
+                Have questions about KFC menu items,
+                product prices, ingredients or availability?
+                Use our product enquiry form to explore
+                information about your favourite KFC meals.
+            </p>
+
+            <p>
+                Whether you are interested in fried chicken,
+                a Zinger Burger, Twister Wrap or chicken bucket,
+                you can select a product and submit your
+                enquiry using the form below.
+            </p>
+
+        </section>
+
+
+        <!-- PRODUCT ENQUIRY FORM -->
+        <section id="product-enquiry"
+                 class="content-section">
+
+            <!-- SEO KEYWORD IN HEADING -->
+            <h2>KFC Menu and Product Enquiry Form</h2>
+
+            <p>
+                Select a KFC product and enquiry type
+                to receive a demonstration response about
+                prices, availability, ingredients or ordering.
+            </p>
+
+            <form id="enquiryForm"
+                  class="enquiry-form"
+                  action="#"
+                  method="post">
+
+                <!-- FULL NAME -->
+                <div class="form-group">
+
+                    <label for="enquiryName">
+                        Full Name:
+                    </label>
+
+                    <input type="text"
+                           id="enquiryName"
+                           name="fullName"
+                           placeholder="Enter your full name"
+                           minlength="2"
+                           maxlength="60"
+                           autocomplete="name"
+                           required>
+
+                </div>
+
+
+                <!-- EMAIL ADDRESS -->
+                <div class="form-group">
+
+                    <label for="enquiryEmail">
+                        Email Address:
+                    </label>
+
+                    <input type="email"
+                           id="enquiryEmail"
+                           name="email"
+                           placeholder="Enter your email"
+                           autocomplete="email"
+                           required>
+
+                </div>
+
+
+                <!-- PHONE NUMBER -->
+                <div class="form-group">
+
+                    <label for="enquiryPhone">
+                        Phone Number:
+                    </label>
+
+                    <input type="tel"
+                           id="enquiryPhone"
+                           name="phone"
+                           placeholder="0821234567 or +27821234567"
+                           autocomplete="tel"
+                           required>
+
+                </div>
+
+
+                <!-- PRODUCT SELECTION -->
+                <div class="form-group">
+
+                    <label for="product">
+                        Select KFC Product:
+                    </label>
+
+                    <select id="product"
+                            name="product"
+                            required>
+
+                        <option value="">
+                            -- Select a Product --
+                        </option>
+
+                        <option value="fried-chicken">
+                            Fried Chicken
+                        </option>
+
+                        <option value="zinger-burger">
+                            Zinger Burger
+                        </option>
+
+                        <option value="twister">
+                            Twister
+                        </option>
+
+                        <option value="chicken-bucket">
+                            Chicken Bucket
+                        </option>
+
+                        <option value="family-meal">
+                            Family Meal
+                        </option>
+
+                        <option value="chips">
+                            Chips
+                        </option>
+
+                        <option value="soft-drink">
+                            Soft Drink
+                        </option>
+
+                    </select>
+
+                </div>
+
+
+                <!-- DYNAMIC PRODUCT INFORMATION -->
+                <div id="productInfo"
+                     class="product-info"
+                     role="status"
+                     aria-live="polite">
+                </div>
+
+
+                <!-- QUANTITY -->
+                <div class="form-group">
+
+                    <label for="quantity">
+                        Quantity:
+                    </label>
+
+                    <input type="number"
+                           id="quantity"
+                           name="quantity"
+                           min="1"
+                           max="20"
+                           step="1"
+                           value="1"
+                           required>
+
+                </div>
+
+
+                <!-- ENQUIRY TYPE -->
+                <div class="form-group">
+
+                    <label for="enquiry-type">
+                        KFC Enquiry Type:
+                    </label>
+
+                    <select id="enquiry-type"
+                            name="enquiryType"
+                            required>
+
+                        <option value="">
+                            -- Select Enquiry Type --
+                        </option>
+
+                        <option value="price">
+                            Product Price
+                        </option>
+
+                        <option value="availability">
+                            Product Availability
+                        </option>
+
+                        <option value="ingredients">
+                            Product Ingredients
+                        </option>
+
+                        <option value="order">
+                            Placing an Order
+                        </option>
+
+                        <option value="other">
+                            Other
+                        </option>
+
+                    </select>
+
+                </div>
+
+
+                <!-- ORDER PREFERENCE -->
+                <fieldset class="form-group order-preference">
+
+                    <legend>
+                        How would you like to receive your order?
+                    </legend>
+
+                    <div class="radio-option">
+
+                        <input type="radio"
+                               id="dine-in"
+                               name="order-type"
+                               value="dine-in"
+                               required>
+
+                        <label for="dine-in">
+                            Dine-In
+                        </label>
+
+                    </div>
+
+                    <div class="radio-option">
+
+                        <input type="radio"
+                               id="takeaway"
+                               name="order-type"
+                               value="takeaway">
+
+                        <label for="takeaway">
+                            Takeaway
+                        </label>
+
+                    </div>
+
+                    <div class="radio-option">
+
+                        <input type="radio"
+                               id="delivery"
+                               name="order-type"
+                               value="delivery">
+
+                        <label for="delivery">
+                            Delivery
+                        </label>
+
+                    </div>
+
+                </fieldset>
+
+
+                <!-- CUSTOMER MESSAGE -->
+                <div class="form-group">
+
+                    <label for="enquiryMessage">
+                        Your Product Enquiry:
+                    </label>
+
+                    <textarea id="enquiryMessage"
+                              name="message"
+                              rows="6"
+                              minlength="10"
+                              maxlength="1000"
+                              placeholder="Enter your enquiry here..."
+                              required></textarea>
+
+                </div>
+
+
+                <!-- SUBMIT AND RESET BUTTONS -->
+                <div class="form-buttons">
+
+                    <button type="submit">
+                        Submit Enquiry
+                    </button>
+
+                    <button type="reset"
+                            class="reset-button">
+                        Clear Form
+                    </button>
+
+                </div>
+
+
+                <!-- JAVASCRIPT RESPONSE -->
+                <div id="enquiryResponse"
+                     role="status"
+                     aria-live="polite">
+                </div>
+
+            </form>
+
+        </section>
+
+    </main>
+
+
+    <!-- FOOTER -->
+    <footer class="site-footer">
+
+        <p>
+            Contact Email:
+
+            <a href="mailto:kfccustomercare@dsg.co.za">
+                kfccustomercare@dsg.co.za
+            </a>
+        </p>
+
+        <p>
+            &copy;
+            <span id="copyrightYear">2026</span>
+            KFC. All Rights Reserved.
+        </p>
+
+    </footer>
+
+
+    <!-- JAVASCRIPT -->
+    <script src="js/script.js"></script>
+
+</body>
+
+</html>
+
