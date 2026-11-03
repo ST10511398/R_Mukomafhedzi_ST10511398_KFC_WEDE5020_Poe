@@ -277,4 +277,362 @@
 </body>
 
 </html>
+---
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+    <!-- MOBILE-FRIENDLINESS -->
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <!-- SEO: KEYWORD RESEARCH -->
+    <!-- Primary Keyword: KFC South Africa -->
+    <!-- Secondary Keywords:
+         KFC fried chicken,
+         KFC menu,
+         chicken meals,
+         KFC burgers,
+         KFC wraps,
+         KFC family meals
+    -->
+
+    <!-- SEO TITLE -->
+    <title>KFC South Africa | Fried Chicken, Burgers & Family Meals</title>
+
+    <!-- SEO META DESCRIPTION -->
+    <meta name="description"
+          content="Explore KFC South Africa fried chicken, burgers, wraps and family meals. Discover our sample KFC menu, restaurant services and meal information.">
+
+    <!-- SEO KEYWORDS -->
+    <meta name="keywords"
+          content="KFC South Africa, KFC fried chicken,
+          KFC menu, chicken meals, KFC burgers,
+          KFC wraps, KFC family meals">
+
+    <!-- CANONICAL URL -->
+    <link rel="canonical"
+          href="https://www.yourwebsite.co.za/">
+
+    <!-- EXTERNAL RESPONSIVE CSS -->
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+
+    <!-- HEADER -->
+    <header class="site-header">
+
+        <div class="logo">
+            <h1>KFC.</h1>
+        </div>
+
+        <!-- MOBILE-FRIENDLY NAVIGATION -->
+        <nav class="navigation" aria-label="Main navigation">
+
+            <ul>
+                <li>
+                    <a href="index.html"
+                       class="active"
+                       aria-current="page">
+                        Home
+                    </a>
+                </li>
+
+                <li>
+                    <a href="about_us.html">
+                        About Us
+                    </a>
+                </li>
+
+                <li>
+                    <a href="services.html">
+                        Our Services
+                    </a>
+                </li>
+
+                <li>
+                    <a href="products.html">
+                        Our Menu
+                    </a>
+                </li>
+
+                <li>
+                    <a href="enquiry.html">
+                        Enquiries
+                    </a>
+                </li>
+
+                <li>
+                    <a href="contact.html">
+                        Contact Us
+                    </a>
+                </li>
+            </ul>
+
+        </nav>
+
+    </header>
+
+
+    <!-- MAIN CONTENT -->
+    <main>
+
+        <!-- HERO SECTION -->
+        <section id="hero-section"
+                 class="hero-section">
+
+            <div class="hero-image">
+
+                <!-- IMAGE OPTIMISATION -->
+                <!-- Keep the original filename so the image loads -->
+                <!-- Compress the actual image file for faster loading -->
+
+                <img src="images/kfc.jpg"
+                     width="200"
+                     height="200"
+                     alt="KFC South Africa crispy fried chicken meal"
+                     loading="eager"
+                     fetchpriority="high"
+                     decoding="async">
+
+            </div>
+
+            <div class="hero-text">
+
+                <!-- SEO KEYWORD IN HEADING -->
+                <h2>Welcome to KFC South Africa</h2>
+
+                <h3>Delicious Fried Chicken and Family Meals</h3>
+
+                <p>
+                    Enjoy delicious KFC fried chicken,
+                    burgers, wraps and tasty chicken meals
+                    prepared for individuals and families.
+                </p>
+
+                <p>
+                    Explore our KFC menu and discover
+                    a variety of meals, restaurant services
+                    and convenient food options.
+                </p>
+
+                <!-- JAVASCRIPT WELCOME MESSAGE -->
+                <p id="welcomeMessage"
+                   aria-live="polite"></p>
+
+                <!-- CALL-TO-ACTION BUTTONS -->
+                <div class="call-to-action-btn">
+
+                    <a href="products.html">
+                        View Our KFC Menu
+                    </a>
+
+                    <a href="enquiry.html">
+                        Make a Product Enquiry
+                    </a>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ABOUT KFC SECTION -->
+        <section id="brief-info"
+                 class="content-section">
+
+            <!-- SEO KEYWORD IN HEADING -->
+            <h2>About KFC South Africa</h2>
+
+            <div class="summary-content">
+
+                <div class="summary-image">
+
+                    <!-- IMAGE OPTIMISATION -->
+                    <img src="images/LOGO.jpg"
+                         width="200"
+                         height="200"
+                         alt="KFC restaurant logo representing the fried chicken brand"
+                         loading="lazy"
+                         decoding="async">
+
+                </div>
+
+                <div class="summary-text">
+
+                    <p>
+                        KFC is a popular fast-food restaurant
+                        known for its crispy fried chicken
+                        and unique blend of herbs and spices.
+                    </p>
+
+                    <p>
+                        The KFC menu includes chicken pieces,
+                        burgers, wraps, chips and family meals,
+                        offering a variety of food choices.
+                    </p>
+
+                    <!-- HIDDEN ADDITIONAL INFORMATION -->
+                    <div id="moreAbout" hidden>
+
+                        <p>
+                            KFC aims to provide customers
+                            with tasty food and a convenient
+                            dining experience.
+                        </p>
+
+                        <p>
+                            Whether you are eating alone,
+                            with friends or with family,
+                            there are different KFC meals
+                            to explore.
+                        </p>
+
+                        <p>
+                            Learn more about the restaurant's
+                            history, services and menu by
+                            exploring the other pages
+                            of this website.
+                        </p>
+
+                    </div>
+
+                    <!-- JAVASCRIPT READ MORE BUTTON -->
+                    <button type="button"
+                            id="homeReadMoreBtn"
+                            aria-controls="moreAbout"
+                            aria-expanded="false">
+                        Read More
+                    </button>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- NEWSLETTER FORM -->
+        <section id="newsletter"
+                 class="content-section">
+
+            <h2>Subscribe for KFC Menu and Meal Updates</h2>
+
+            <p>
+                Enter your details to try our demonstration
+                newsletter form for information about
+                KFC meals, menu items and promotions.
+            </p>
+
+            <form id="newsletterForm">
+
+                <!-- FULL NAME -->
+                <div class="form-group">
+
+                    <label for="subscriberName">
+                        Full Name:
+                    </label>
+
+                    <input type="text"
+                           id="subscriberName"
+                           name="subscriberName"
+                           minlength="2"
+                           maxlength="60"
+                           autocomplete="name"
+                           required>
+
+                </div>
+
+
+                <!-- EMAIL ADDRESS -->
+                <div class="form-group">
+
+                    <label for="subscriberEmail">
+                        Email Address:
+                    </label>
+
+                    <input type="email"
+                           id="subscriberEmail"
+                           name="subscriberEmail"
+                           autocomplete="email"
+                           required>
+
+                </div>
+
+
+                <!-- NEWSLETTER CONSENT -->
+                <div class="form-group">
+
+                    <label for="newsletterConsent">
+
+                        <input type="checkbox"
+                               id="newsletterConsent"
+                               required>
+
+                        I agree to receive promotional emails.
+
+                    </label>
+
+                </div>
+
+
+                <!-- FORM BUTTONS -->
+                <div class="form-buttons">
+
+                    <button type="submit">
+                        Subscribe
+                    </button>
+
+                    <button type="reset">
+                        Clear Form
+                    </button>
+
+                </div>
+
+
+                <!-- JAVASCRIPT RESPONSE -->
+                <p id="newsletterResponse"
+                   role="status"
+                   aria-live="polite"></p>
+
+            </form>
+
+        </section>
+
+    </main>
+
+
+    <!-- FOOTER -->
+    <footer class="site-footer">
+
+        <p>
+            Contact Email:
+
+            <a href="mailto:kfccustomercare@dsg.co.za">
+                kfccustomercare@dsg.co.za
+            </a>
+        </p>
+
+        <p>
+            &copy;
+            <span id="copyrightYear">2026</span>
+            KFC. All Rights Reserved.
+        </p>
+
+    </footer>
+
+
+    <!-- JAVASCRIPT -->
+    <script src="js/script.js"></script>
+
+</body>
+
+</html>
 
