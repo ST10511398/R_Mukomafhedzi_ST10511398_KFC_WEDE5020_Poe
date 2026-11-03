@@ -545,3 +545,550 @@
 </body>
 
 </html>
+---
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+    <!-- MOBILE-FRIENDLINESS -->
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <!-- SEO: KEYWORD RESEARCH -->
+    <!-- Primary Keyword: KFC menu South Africa -->
+    <!-- Secondary Keywords:
+         KFC chicken meals,
+         KFC burgers,
+         KFC menu prices,
+         Chicken Bucket,
+         Zinger Burger,
+         Twister Wrap,
+         Family Feast,
+         KFC chips,
+         KFC drinks
+    -->
+
+    <!-- SEO TITLE -->
+    <title>KFC Menu South Africa | Chicken, Burgers & Family Meals</title>
+
+    <!-- SEO META DESCRIPTION -->
+    <meta name="description"
+          content="Explore our sample KFC menu South Africa featuring chicken buckets, Zinger burgers, Twister wraps, chips, drinks and family meals with example prices.">
+
+    <!-- SEO KEYWORDS -->
+    <meta name="keywords"
+          content="KFC menu South Africa, KFC chicken meals,
+          KFC burgers, KFC menu prices, Chicken Bucket,
+          Zinger Burger, Twister Wrap, Family Feast,
+          KFC chips, KFC drinks">
+
+    <!-- CANONICAL URL -->
+    <link rel="canonical"
+          href="https://www.yourwebsite.co.za/products.html">
+
+    <!-- EXTERNAL RESPONSIVE CSS -->
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+
+    <!-- HEADER -->
+    <header class="site-header">
+
+        <div class="logo">
+            <h1>KFC</h1>
+        </div>
+
+        <!-- MOBILE-FRIENDLY NAVIGATION -->
+        <nav class="navigation" aria-label="Main navigation">
+
+            <ul>
+                <li><a href="index.html">Home</a></li>
+
+                <li><a href="about_us.html">About Us</a></li>
+
+                <li><a href="services.html">Our Services</a></li>
+
+                <li>
+                    <a href="products.html"
+                       class="active"
+                       aria-current="page">
+                        Our Menu
+                    </a>
+                </li>
+
+                <li><a href="enquiry.html">Enquiries</a></li>
+
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+
+        </nav>
+
+    </header>
+
+
+    <!-- MAIN CONTENT -->
+    <main>
+
+        <!-- HERO SECTION -->
+        <section id="hero-section"
+                 class="hero-section">
+
+            <div class="hero-image">
+
+                <!-- IMAGE OPTIMISATION -->
+                <img src="images/menu.png"
+                     width="200"
+                     height="200"
+                     alt="KFC South Africa menu featuring fried chicken, burgers and family meals"
+                     loading="eager"
+                     decoding="async"
+                     fetchpriority="high">
+
+            </div>
+
+            <div class="hero-text">
+
+                <!-- SEO KEYWORD IN HEADING -->
+                <h2>KFC Menu South Africa</h2>
+
+                <h3>Explore Chicken, Burgers and Family Meals</h3>
+
+                <p>
+                    Browse our sample KFC menu featuring
+                    crispy fried chicken, chicken burgers,
+                    Twister wraps, chips, family meals
+                    and refreshing drinks.
+                </p>
+
+                <p>
+                    Explore example KFC menu prices,
+                    search for your favourite meals
+                    and calculate estimated meal costs.
+                </p>
+
+                <div class="call-to-action-btn">
+
+                    <a href="enquiry.html">
+                        Make a Product Enquiry
+                    </a>
+
+                    <a href="contact.html">
+                        Contact Us
+                    </a>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- PRODUCTS SECTION -->
+        <section id="products"
+                 class="content-section">
+
+            <h2>KFC Chicken Meals, Burgers and Menu Items</h2>
+
+            <p>
+                Search, filter and sort the KFC menu items below.
+                Prices are examples for this student website project
+                and may not reflect current restaurant prices.
+            </p>
+
+            <!-- SEARCH AND FILTER -->
+            <div class="menu-controls">
+
+                <label for="menuSearch">
+                    Search KFC Menu:
+                </label>
+
+                <input type="search"
+                       id="menuSearch"
+                       placeholder="Search chicken, burger, chips...">
+
+                <label for="categoryFilter">
+                    Filter Menu Category:
+                </label>
+
+                <select id="categoryFilter">
+
+                    <option value="all">
+                        All Categories
+                    </option>
+
+                    <option value="chicken">
+                        Chicken
+                    </option>
+
+                    <option value="burgers">
+                        Burgers
+                    </option>
+
+                    <option value="wraps">
+                        Wraps
+                    </option>
+
+                    <option value="sides">
+                        Sides
+                    </option>
+
+                    <option value="family">
+                        Family Meals
+                    </option>
+
+                    <option value="drinks">
+                        Drinks
+                    </option>
+
+                </select>
+
+                <label for="priceSort">
+                    Sort KFC Menu by Price:
+                </label>
+
+                <select id="priceSort">
+
+                    <option value="default">
+                        Default Order
+                    </option>
+
+                    <option value="low">
+                        Price: Low to High
+                    </option>
+
+                    <option value="high">
+                        Price: High to Low
+                    </option>
+
+                </select>
+
+                <p id="menuResult"
+                   role="status"
+                   aria-live="polite"></p>
+
+            </div>
+
+
+            <!-- PRODUCT CONTAINER -->
+            <div class="product-container" id="productContainer">
+
+                <!-- PRODUCT 1: CHICKEN BUCKET -->
+                <article class="product"
+                         data-category="chicken"
+                         data-price="149.90">
+
+                    <img src="images/chicken.jpg"
+                         width="200"
+                         height="200"
+                         alt="KFC Chicken Bucket filled with crispy fried chicken pieces"
+                         loading="lazy"
+                         decoding="async">
+
+                    <h3>KFC Chicken Bucket</h3>
+
+                    <p>
+                        Enjoy crispy fried chicken pieces
+                        prepared with KFC's famous blend
+                        of herbs and spices.
+                    </p>
+
+                    <p class="price">
+                        <strong>Example Price:</strong> R149.90
+                    </p>
+
+                </article>
+
+
+                <!-- PRODUCT 2: ZINGER BURGER -->
+                <article class="product"
+                         data-category="burgers"
+                         data-price="69.90">
+
+                    <img src="images/zingerburger.jpg"
+                         width="200"
+                         height="200"
+                         alt="KFC Zinger Burger with spicy chicken fillet, lettuce and mayonnaise"
+                         loading="lazy"
+                         decoding="async">
+
+                    <h3>KFC Zinger Burger</h3>
+
+                    <p>
+                        A spicy chicken fillet burger
+                        served with fresh lettuce
+                        and creamy mayonnaise.
+                    </p>
+
+                    <p class="price">
+                        <strong>Example Price:</strong> R69.90
+                    </p>
+
+                </article>
+
+
+                <!-- PRODUCT 3: TWISTER WRAP -->
+                <article class="product"
+                         data-category="wraps"
+                         data-price="59.90">
+
+                    <img src="images/twisterwrap.jpg"
+                         width="200"
+                         height="200"
+                         alt="KFC Twister Wrap filled with chicken, lettuce, tomato and sauce"
+                         loading="lazy"
+                         decoding="async">
+
+                    <h3>KFC Twister Wrap</h3>
+
+                    <p>
+                        A tasty chicken wrap filled
+                        with lettuce, tomato and sauce,
+                        making it a convenient meal.
+                    </p>
+
+                    <p class="price">
+                        <strong>Example Price:</strong> R59.90
+                    </p>
+
+                </article>
+
+
+                <!-- PRODUCT 4: CHIPS -->
+                <article class="product"
+                         data-category="sides"
+                         data-price="29.90">
+
+                    <img src="images/chips.jpg"
+                         width="200"
+                         height="200"
+                         alt="Golden crispy KFC chips served as a side dish"
+                         loading="lazy"
+                         decoding="async">
+
+                    <h3>KFC Chips</h3>
+
+                    <p>
+                        Golden, crispy chips that
+                        complement fried chicken,
+                        burgers and other KFC meals.
+                    </p>
+
+                    <p class="price">
+                        <strong>Example Price:</strong> R29.90
+                    </p>
+
+                </article>
+
+
+                <!-- PRODUCT 5: FAMILY FEAST -->
+                <article class="product"
+                         data-category="family"
+                         data-price="249.90">
+
+                    <img src="images/feast.jpg"
+                         width="250"
+                         height="200"
+                         alt="KFC Family Feast chicken meal suitable for sharing with family and friends"
+                         loading="lazy"
+                         decoding="async">
+
+                    <h3>KFC Family Feast</h3>
+
+                    <p>
+                        A large KFC family meal
+                        suitable for sharing
+                        with family and friends.
+                    </p>
+
+                    <p class="price">
+                        <strong>Example Price:</strong> R249.90
+                    </p>
+
+                </article>
+
+
+                <!-- PRODUCT 6: SOFT DRINK -->
+                <article class="product"
+                         data-category="drinks"
+                         data-price="24.90">
+
+                    <img src="images/coke.jpg"
+                         width="250"
+                         height="200"
+                         alt="Refreshing cold soft drink served with a KFC meal"
+                         loading="lazy"
+                         decoding="async">
+
+                    <h3>KFC Soft Drink</h3>
+
+                    <p>
+                        Refreshing cold drinks
+                        available in different flavours
+                        to enjoy with KFC meals.
+                    </p>
+
+                    <p class="price">
+                        <strong>Example Price:</strong> R24.90
+                    </p>
+
+                </article>
+
+            </div>
+
+        </section>
+
+
+        <!-- PRICE CALCULATOR -->
+        <section id="price-calculator"
+                 class="content-section">
+
+            <h2>KFC Menu Price Calculator</h2>
+
+            <p>
+                Select a KFC menu item and quantity
+                to calculate an estimated total price.
+                All prices are examples for this project.
+            </p>
+
+            <form id="priceCalculatorForm">
+
+                <!-- PRODUCT SELECTION -->
+                <div class="form-group">
+
+                    <label for="calculatorProduct">
+                        Select KFC Product:
+                    </label>
+
+                    <select id="calculatorProduct" required>
+
+                        <option value="">
+                            -- Select Product --
+                        </option>
+
+                        <option value="149.90">
+                            Chicken Bucket
+                        </option>
+
+                        <option value="69.90">
+                            Zinger Burger
+                        </option>
+
+                        <option value="59.90">
+                            Twister Wrap
+                        </option>
+
+                        <option value="29.90">
+                            Chips
+                        </option>
+
+                        <option value="249.90">
+                            Family Feast
+                        </option>
+
+                        <option value="24.90">
+                            Soft Drink
+                        </option>
+
+                    </select>
+
+                </div>
+
+
+                <!-- QUANTITY -->
+                <div class="form-group">
+
+                    <label for="calculatorQuantity">
+                        Quantity:
+                    </label>
+
+                    <input type="number"
+                           id="calculatorQuantity"
+                           min="1"
+                           max="20"
+                           step="1"
+                           value="1"
+                           required>
+
+                </div>
+
+
+                <!-- FORM BUTTONS -->
+                <div class="form-buttons">
+
+                    <button type="submit">
+                        Calculate Total
+                    </button>
+
+                    <button type="reset"
+                            class="reset-button">
+                        Clear
+                    </button>
+
+                </div>
+
+
+                <!-- JAVASCRIPT RESPONSE -->
+                <p id="calculatorResult"
+                   role="status"
+                   aria-live="polite"></p>
+
+            </form>
+
+        </section>
+
+
+        <!-- SPECIAL OFFERS -->
+        <section id="special-offers"
+                 class="content-section">
+
+            <h2>KFC Special Offers and Meal Deals</h2>
+
+            <p>
+                Visit the official KFC South Africa website
+                to explore current promotions,
+                meal deals and available offers.
+            </p>
+
+            <a href="https://www.kfc.co.za"
+               target="_blank"
+               rel="noopener noreferrer">
+                Visit KFC South Africa
+            </a>
+
+        </section>
+
+    </main>
+
+
+    <!-- FOOTER -->
+    <footer class="site-footer">
+
+        <p>
+            Contact Email:
+
+            <a href="mailto:kfccustomercare@dsg.co.za">
+                kfccustomercare@dsg.co.za
+            </a>
+        </p>
+
+        <p>
+            &copy;
+            <span id="copyrightYear">2026</span>
+            KFC. All Rights Reserved.
+        </p>
+
+    </footer>
+
+
+    <!-- JAVASCRIPT -->
+    <script src="js/script.js"></script>
+
+</body>
+
+</html>
