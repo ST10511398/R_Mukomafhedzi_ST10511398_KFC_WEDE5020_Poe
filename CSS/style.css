@@ -618,3 +618,1496 @@ footer p {
         padding: 1.5rem 1rem;
     }
 }
+
+/* ==========================================
+   KFC SOUTH AFRICA WEBSITE
+   COMPLETE RESPONSIVE STYLESHEET
+
+   Pages:
+   1. index.html
+   2. about_us.html
+   3. services.html
+   4. products.html
+   5. enquiry.html
+   6. contact.html
+========================================== */
+
+
+/* ==========================================
+   1. GENERAL WEBSITE STYLING
+========================================== */
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+    color: #222;
+    line-height: 1.6;
+    overflow-wrap: break-word;
+}
+
+h1,
+h2,
+h3 {
+    line-height: 1.3;
+}
+
+h2 {
+    color: #d40000;
+    margin-bottom: 20px;
+}
+
+h3 {
+    color: #222;
+}
+
+p {
+    margin-bottom: 15px;
+}
+
+a {
+    color: #d40000;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+button,
+input,
+select,
+textarea {
+    font-family: Arial, sans-serif;
+}
+
+button {
+    cursor: pointer;
+}
+
+button:focus-visible,
+a:focus-visible,
+input:focus-visible,
+select:focus-visible,
+textarea:focus-visible {
+    outline: 3px solid #e69b00;
+    outline-offset: 2px;
+}
+
+[hidden] {
+    display: none !important;
+}
+
+
+/* ==========================================
+   2. HEADER AND NAVIGATION
+========================================== */
+
+.site-header,
+header {
+    background-color: #d40000;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.logo h1 {
+    color: white;
+    font-size: 36px;
+    margin: 0 0 15px;
+    font-weight: bold;
+}
+
+.navigation ul,
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 25px;
+    margin: 0;
+    padding: 0;
+}
+
+.navigation li,
+nav li {
+    margin: 0;
+}
+
+.navigation a,
+nav a {
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    display: inline-block;
+    padding: 10px 12px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.navigation a:hover,
+nav a:hover {
+    background-color: #a80000;
+    text-decoration: none;
+}
+
+.navigation a.active,
+nav a.active,
+.navigation a[aria-current="page"] {
+    background-color: white;
+    color: #d40000;
+}
+
+
+/* ==========================================
+   3. MAIN CONTENT AND SECTIONS
+========================================== */
+
+main {
+    width: 100%;
+    min-height: 60vh;
+}
+
+.content-section {
+    width: 90%;
+    max-width: 1200px;
+    margin: 30px auto;
+    padding: 30px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+    min-width: 0;
+}
+
+.content-section h2 {
+    font-size: 28px;
+}
+
+.content-section p {
+    font-size: 16px;
+}
+
+
+/* ==========================================
+   4. HERO SECTION
+   Home and Menu Pages
+========================================== */
+
+.hero-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    padding: 50px 5%;
+    background-color: white;
+    min-height: 400px;
+}
+
+.hero-image {
+    flex: 1;
+    min-width: 0;
+    text-align: center;
+}
+
+.hero-image img {
+    width: 100%;
+    max-width: 450px;
+    height: auto;
+    border-radius: 10px;
+    object-fit: contain;
+}
+
+.hero-text {
+    flex: 1;
+    min-width: 0;
+}
+
+.hero-text h2 {
+    font-size: 38px;
+    color: #d40000;
+    margin: 10px 0;
+}
+
+.hero-text h3 {
+    font-size: 23px;
+    margin-bottom: 10px;
+}
+
+.hero-text p {
+    font-size: 18px;
+    margin-bottom: 25px;
+}
+
+
+/* ==========================================
+   5. CALL TO ACTION BUTTONS
+========================================== */
+
+.call-to-action-btn {
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.call-to-action-btn a {
+    display: inline-block;
+    background-color: #d40000;
+    color: white;
+    padding: 12px 24px;
+    border-radius: 5px;
+    font-weight: bold;
+    text-align: center;
+    min-height: 44px;
+    transition:
+        background-color 0.3s ease,
+        transform 0.3s ease;
+}
+
+.call-to-action-btn a:hover {
+    background-color: #a80000;
+    transform: translateY(-3px);
+    text-decoration: none;
+}
+
+
+/* ==========================================
+   6. HOME PAGE
+========================================== */
+
+#brief-info {
+    padding: 35px;
+}
+
+.summary-content {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.summary-image {
+    flex: 1;
+    min-width: 0;
+    text-align: center;
+}
+
+.summary-image img {
+    max-width: 300px;
+    height: auto;
+    border-radius: 10px;
+}
+
+.summary-text {
+    flex: 2;
+    min-width: 0;
+}
+
+#welcomeMessage {
+    color: #d40000;
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+#homeReadMoreBtn {
+    background-color: #d40000;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 10px;
+    min-height: 44px;
+}
+
+#homeReadMoreBtn:hover {
+    background-color: #a80000;
+}
+
+#moreAbout {
+    margin-top: 15px;
+}
+
+
+/* Newsletter Form */
+
+#newsletter {
+    text-align: center;
+}
+
+#newsletterForm {
+    width: 100%;
+    max-width: 550px;
+    margin: 20px auto;
+    text-align: left;
+}
+
+#newsletterForm label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+#newsletterForm input[type="text"],
+#newsletterForm input[type="email"] {
+    width: 100%;
+    max-width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+#newsletterForm input[type="checkbox"] {
+    width: auto;
+    margin-right: 8px;
+    accent-color: #d40000;
+}
+
+#newsletterForm button {
+    background-color: #d40000;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 12px 25px;
+    margin-top: 15px;
+    min-height: 44px;
+}
+
+#newsletterForm button:hover {
+    background-color: #a80000;
+}
+
+
+/* ==========================================
+   7. ABOUT US PAGE
+========================================== */
+
+#about-introduction,
+#history,
+#mission,
+#vision,
+#team,
+#about-feedback {
+    margin-bottom: 30px;
+}
+
+
+/* History Layout */
+
+.history-container,
+.history-content,
+.about-content {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.history-image,
+.about-image {
+    flex: 1;
+    min-width: 0;
+    text-align: center;
+}
+
+.history-image img,
+.about-image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    object-fit: contain;
+}
+
+.history-text,
+.about-text {
+    flex: 2;
+    min-width: 0;
+}
+
+
+/* Read More Button */
+
+#readMoreBtn {
+    background-color: #d40000;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 10px;
+    min-height: 44px;
+}
+
+#readMoreBtn:hover {
+    background-color: #a80000;
+}
+
+
+/* Team Members */
+
+.team-container,
+.team-members {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 25px;
+    margin-top: 25px;
+}
+
+.team-member {
+    background-color: #fafafa;
+    border: 1px solid #eee;
+    border-radius: 8px;
+    padding: 20px;
+    text-align: center;
+    min-width: 0;
+    transition:
+        transform 0.3s ease,
+        box-shadow 0.3s ease;
+}
+
+.team-member:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
+}
+
+.team-member img {
+    width: 180px;
+    max-width: 100%;
+    height: 180px;
+    object-fit: contain;
+    border-radius: 8px;
+}
+
+.team-member h3 {
+    margin-top: 15px;
+}
+
+.team-btn {
+    background-color: #d40000;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    margin-top: 10px;
+    min-height: 44px;
+}
+
+.team-btn:hover {
+    background-color: #a80000;
+}
+
+.team-description {
+    margin-top: 15px;
+    text-align: left;
+}
+
+
+/* About Us Feedback Form */
+
+#feedbackForm {
+    width: 100%;
+    max-width: 650px;
+    margin: 20px auto;
+}
+
+#feedbackForm > label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+
+#feedbackForm > input,
+#feedbackForm > select,
+#feedbackForm > textarea {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+#feedbackForm > button {
+    background-color: #d40000;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    margin: 5px 10px 5px 0;
+    min-height: 44px;
+}
+
+#feedbackForm > button:hover {
+    background-color: #a80000;
+}
+
+#feedbackForm > button[type="reset"] {
+    background-color: #555;
+}
+
+#feedbackForm > button[type="reset"]:hover {
+    background-color: #333;
+}
+
+
+/* ==========================================
+   8. SERVICES PAGE
+========================================== */
+
+.services-container {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 25px;
+    margin-top: 25px;
+}
+
+.service {
+    background-color: #fafafa;
+    border: 1px solid #e5e5e5;
+    border-radius: 8px;
+    padding: 20px;
+    text-align: center;
+    min-width: 0;
+    transition:
+        transform 0.3s ease,
+        box-shadow 0.3s ease;
+}
+
+.service:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
+}
+
+.service img {
+    width: 100%;
+    max-width: 220px;
+    height: 180px;
+    object-fit: contain;
+    border-radius: 8px;
+}
+
+.service h3 {
+    color: #d40000;
+    margin-top: 15px;
+}
+
+.service p {
+    text-align: left;
+}
+
+
+/* Service Search and Filter */
+
+.service-controls {
+    background-color: #f8f8f8;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 25px;
+}
+
+.service-controls label {
+    display: block;
+    font-weight: bold;
+    margin: 15px 0 8px;
+}
+
+.service-controls input,
+.service-controls select {
+    width: 100%;
+    max-width: 500px;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+#serviceResult {
+    font-weight: bold;
+    margin-top: 15px;
+}
+
+
+/* View More Buttons */
+
+.service-btn {
+    background-color: #d40000;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-top: 15px;
+    min-height: 44px;
+    transition: background-color 0.3s ease;
+}
+
+.service-btn:hover {
+    background-color: #a80000;
+}
+
+.service-extra {
+    margin-top: 15px;
+    text-align: left;
+}
+
+
+/* Service Enquiry Form */
+
+#service-enquiry {
+    padding: 30px;
+}
+
+#serviceEnquiryForm {
+    width: 100%;
+    max-width: 650px;
+    margin: 20px auto;
+}
+
+
+/* ==========================================
+   9. PRODUCTS / MENU PAGE
+========================================== */
+
+.product-container {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 25px;
+    margin-top: 25px;
+}
+
+.product {
+    background-color: #fafafa;
+    border: 1px solid #eee;
+    border-radius: 8px;
+    padding: 20px;
+    text-align: center;
+    min-width: 0;
+    transition:
+        transform 0.3s ease,
+        box-shadow 0.3s ease;
+}
+
+.product:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
+}
+
+.product img {
+    width: 100%;
+    max-width: 220px;
+    height: 180px;
+    object-fit: contain;
+    border-radius: 8px;
+}
+
+.product h3 {
+    color: #d40000;
+    margin-top: 15px;
+}
+
+.product .price {
+    font-size: 18px;
+    color: #d40000;
+    font-weight: bold;
+}
+
+
+/* Menu Search and Filter */
+
+.menu-controls {
+    background-color: #f8f8f8;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 25px;
+}
+
+.menu-controls label {
+    display: block;
+    font-weight: bold;
+    margin: 15px 0 8px;
+}
+
+.menu-controls input,
+.menu-controls select {
+    width: 100%;
+    max-width: 500px;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+#menuResult {
+    font-weight: bold;
+    margin-top: 15px;
+}
+
+
+/* Meal Price Calculator */
+
+#price-calculator {
+    background-color: white;
+    padding: 30px;
+    border-radius: 8px;
+}
+
+#priceCalculatorForm {
+    width: 100%;
+    max-width: 600px;
+    margin: 20px auto;
+}
+
+#calculatorResult {
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+
+/* Special Offers */
+
+#special-offers {
+    text-align: center;
+}
+
+#special-offers a {
+    display: inline-block;
+    background-color: #d40000;
+    color: white;
+    padding: 12px 24px;
+    border-radius: 5px;
+    margin-top: 15px;
+    min-height: 44px;
+}
+
+#special-offers a:hover {
+    background-color: #a80000;
+    text-decoration: none;
+}
+
+
+/* ==========================================
+   10. ENQUIRIES PAGE
+========================================== */
+
+#enquiry-introduction {
+    text-align: center;
+}
+
+#product-enquiry {
+    padding: 30px;
+}
+
+.enquiry-form,
+#enquiryForm {
+    width: 100%;
+    max-width: 650px;
+    margin: 20px auto;
+}
+
+
+/* Dynamic Product Information */
+
+.product-info:not(:empty),
+#productInfo:not(:empty) {
+    background-color: #fff3f3;
+    border-left: 4px solid #d40000;
+    padding: 15px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+
+/* Radio Buttons */
+
+.order-preference {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 15px;
+    margin-bottom: 20px;
+    min-width: 0;
+}
+
+.order-preference legend {
+    font-weight: bold;
+    padding: 0 8px;
+}
+
+.radio-option {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin: 10px 0;
+}
+
+.radio-option label {
+    display: inline;
+    font-weight: normal;
+    margin: 0;
+}
+
+.radio-option input[type="radio"] {
+    width: auto;
+    accent-color: #d40000;
+}
+
+
+/* ==========================================
+   11. CONTACT US PAGE
+========================================== */
+
+#contact-information {
+    text-align: center;
+}
+
+.contact-details {
+    background-color: #fafafa;
+    padding: 20px;
+    border-radius: 8px;
+    margin-top: 20px;
+}
+
+.contact-details p {
+    margin: 12px 0;
+}
+
+
+/* Restaurant Locations */
+
+.location-container {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 25px;
+    margin-top: 25px;
+}
+
+.location {
+    background-color: #fafafa;
+    border: 1px solid #eee;
+    border-radius: 8px;
+    padding: 20px;
+    text-align: center;
+    min-width: 0;
+}
+
+.location h3 {
+    color: #d40000;
+}
+
+
+/* Maps */
+
+.map-container {
+    width: 100%;
+    margin-top: 20px;
+}
+
+.map-container iframe {
+    display: block;
+    width: 100%;
+    height: 250px;
+    border: none;
+    border-radius: 8px;
+}
+
+
+/* Location Search */
+
+#locationSearch {
+    width: 100%;
+    max-width: 500px;
+    padding: 12px;
+    margin: 15px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+#locationResult {
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+
+/* Contact Form */
+
+#contact-form {
+    padding: 30px;
+}
+
+.contact-form,
+#contactForm {
+    width: 100%;
+    max-width: 650px;
+    margin: 20px auto;
+}
+
+
+/* ==========================================
+   12. SHARED FORM STYLING
+   All Website Forms
+========================================== */
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+
+.form-group input:not([type="radio"]):not([type="checkbox"]),
+.form-group select,
+.form-group textarea {
+    width: 100%;
+    max-width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    background-color: white;
+}
+
+.form-group textarea {
+    resize: vertical;
+    min-height: 120px;
+}
+
+.form-group input:focus,
+.form-group select:focus,
+.form-group textarea:focus {
+    border-color: #d40000;
+}
+
+
+/* General Form Controls */
+
+input,
+select,
+textarea {
+    max-width: 100%;
+    font-size: 16px;
+}
+
+textarea {
+    resize: vertical;
+}
+
+
+/* Form Buttons */
+
+.form-buttons {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.form-buttons button {
+    background-color: #d40000;
+    color: white;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    min-height: 44px;
+    transition:
+        background-color 0.3s ease,
+        transform 0.3s ease;
+}
+
+.form-buttons button:hover {
+    background-color: #a80000;
+    transform: translateY(-2px);
+}
+
+.form-buttons .reset-button,
+.form-buttons button[type="reset"] {
+    background-color: #555;
+}
+
+.form-buttons .reset-button:hover,
+.form-buttons button[type="reset"]:hover {
+    background-color: #333;
+}
+
+
+/* Shared Form Validation */
+
+.form-error {
+    color: #b00020;
+    background-color: #fff0f2;
+    border-left: 4px solid #b00020;
+    padding: 12px;
+    border-radius: 5px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.form-success {
+    color: #176b35;
+    background-color: #effaf1;
+    border-left: 4px solid #176b35;
+    padding: 12px;
+    border-radius: 5px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+
+/* ==========================================
+   13. IMAGE GALLERY AND LIGHTBOX
+   JavaScript Feature
+========================================== */
+
+.gallery-image {
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.gallery-image:hover {
+    transform: scale(1.05);
+}
+
+.lightbox:not([hidden]) {
+    position: fixed;
+    inset: 0;
+    background-color: rgba(0, 0, 0, 0.9);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+    z-index: 2000;
+}
+
+.lightbox img {
+    max-width: 90%;
+    max-height: 75vh;
+    object-fit: contain;
+    border-radius: 8px;
+}
+
+.lightbox button {
+    background-color: #d40000;
+    color: white;
+    border: none;
+    padding: 12px 24px;
+    border-radius: 5px;
+    font-size: 16px;
+    min-height: 44px;
+    cursor: pointer;
+}
+
+.lightbox button:hover {
+    background-color: #a80000;
+}
+
+
+/* ==========================================
+   14. BACK TO TOP BUTTON
+   JavaScript Feature
+========================================== */
+
+.back-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #d40000;
+    color: white;
+    border: none;
+    padding: 12px 18px;
+    border-radius: 5px;
+    font-weight: bold;
+    min-height: 44px;
+    cursor: pointer;
+    z-index: 1000;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s ease;
+}
+
+.back-to-top:hover {
+    background-color: #a80000;
+}
+
+
+/* ==========================================
+   15. FOOTER
+========================================== */
+
+.site-footer,
+footer {
+    background-color: #222;
+    color: white;
+    padding: 30px 20px;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.site-footer p,
+footer p {
+    margin: 8px 0;
+}
+
+.site-footer a,
+footer a {
+    color: white;
+    text-decoration: underline;
+}
+
+.site-footer a:hover,
+footer a:hover {
+    color: #ffcccc;
+}
+
+
+/* ==========================================
+   16. TABLET RESPONSIVE DESIGN
+   Screens 1024px and Below
+========================================== */
+
+@media (max-width: 1024px) {
+
+    /* Responsive Card Grids */
+
+    .services-container,
+    .product-container,
+    .location-container,
+    .team-container,
+    .team-members {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+
+    /* Hero Section */
+
+    .hero-section {
+        gap: 25px;
+        padding: 35px 5%;
+    }
+
+    .hero-text h2 {
+        font-size: 30px;
+    }
+
+    /* Main Content */
+
+    .content-section {
+        width: 94%;
+        padding: 25px;
+    }
+
+    /* About History */
+
+    .history-container {
+        gap: 20px;
+    }
+
+}
+
+
+/* ==========================================
+   17. MOBILE RESPONSIVE DESIGN
+   Screens 768px and Below
+========================================== */
+
+@media (max-width: 768px) {
+
+    /* Header */
+
+    .site-header,
+    header {
+        padding: 15px;
+    }
+
+    .logo h1 {
+        font-size: 30px;
+    }
+
+    /* Stack Navigation Links */
+
+    .navigation ul,
+    nav ul {
+        flex-direction: column;
+        gap: 5px;
+    }
+
+    .navigation a,
+    nav a {
+        display: block;
+        padding: 10px 15px;
+        min-height: 44px;
+    }
+
+    /* Main Sections */
+
+    .content-section {
+        width: 95%;
+        padding: 20px;
+        margin: 20px auto;
+    }
+
+    .content-section h2 {
+        font-size: 24px;
+    }
+
+    /* Hero Section */
+
+    .hero-section {
+        flex-direction: column;
+        text-align: center;
+        padding: 30px 20px;
+        gap: 20px;
+    }
+
+    .hero-image,
+    .hero-text {
+        width: 100%;
+    }
+
+    .hero-text h2 {
+        font-size: 28px;
+    }
+
+    .hero-text h3 {
+        font-size: 20px;
+    }
+
+    .hero-text p {
+        font-size: 16px;
+    }
+
+    .hero-image img {
+        max-width: 320px;
+    }
+
+    /* Call to Action */
+
+    .call-to-action-btn {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .call-to-action-btn a {
+        width: 100%;
+        max-width: 300px;
+    }
+
+    /* Home Page Summary */
+
+    .summary-content {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .summary-image,
+    .summary-text {
+        width: 100%;
+    }
+
+    /* About Us History */
+
+    .history-container,
+    .history-content,
+    .about-content {
+        flex-direction: column;
+        text-align: center;
+        gap: 20px;
+    }
+
+    .history-image,
+    .history-text,
+    .about-image,
+    .about-text {
+        width: 100%;
+        flex: 0 1 auto;
+    }
+
+    /* Single Column Cards */
+
+    .services-container,
+    .product-container,
+    .location-container,
+    .team-container,
+    .team-members {
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+
+    /* Search and Filter Controls */
+
+    .menu-controls,
+    .service-controls {
+        padding: 15px;
+    }
+
+    .menu-controls input,
+    .menu-controls select,
+    .service-controls input,
+    .service-controls select {
+        width: 100%;
+        max-width: 100%;
+        font-size: 16px;
+    }
+
+    /* Responsive Forms */
+
+    #feedbackForm,
+    #serviceEnquiryForm,
+    #priceCalculatorForm,
+    #enquiryForm,
+    #contactForm,
+    #newsletterForm {
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .form-buttons {
+        flex-direction: column;
+        gap: 12px;
+    }
+
+    .form-buttons button {
+        width: 100%;
+    }
+
+    /* About Feedback Buttons */
+
+    #feedbackForm > button {
+        width: 100%;
+        margin: 5px 0;
+    }
+
+    /* Map Embeds */
+
+    .map-container iframe {
+        width: 100%;
+        height: 300px;
+    }
+
+    /* Footer */
+
+    .site-footer,
+    footer {
+        padding: 25px 15px;
+    }
+
+}
+
+
+/* ==========================================
+   18. SMALL MOBILE RESPONSIVE DESIGN
+   Screens 480px and Below
+========================================== */
+
+@media (max-width: 480px) {
+
+    /* Main Sections */
+
+    .content-section {
+        width: 96%;
+        padding: 15px;
+    }
+
+    /* Hero Section */
+
+    .hero-section {
+        padding: 20px 15px;
+    }
+
+    .hero-text h2 {
+        font-size: 24px;
+    }
+
+    .hero-text h3 {
+        font-size: 19px;
+    }
+
+    /* Product and Service Cards */
+
+    .service,
+    .product,
+    .location,
+    .team-member {
+        padding: 15px;
+    }
+
+    /* Images */
+
+    .hero-image img {
+        max-width: 100%;
+    }
+
+    .service img,
+    .product img,
+    .team-member img {
+        max-width: 100%;
+    }
+
+    /* Buttons */
+
+    .call-to-action-btn a {
+        width: 100%;
+        max-width: 100%;
+    }
+
+    /* Back to Top */
+
+    .back-to-top {
+        bottom: 15px;
+        right: 15px;
+        padding: 10px 14px;
+        font-size: 13px;
+    }
+
+    /* Lightbox */
+
+    .lightbox img {
+        max-width: 100%;
+    }
+
+}
+
+
+/* ==========================================
+   19. ACCESSIBILITY AND REDUCED MOTION
+========================================== */
+
+@media (prefers-reduced-motion: reduce) {
+
+    html {
+        scroll-behavior: auto;
+    }
+
+    *,
+    *::before,
+    *::after {
+        animation-duration: 0.01ms !important;
+        transition-duration: 0.01ms !important;
+    }
+
+}
+
+
+/* ==========================================
+   END OF COMPLETE KFC WEBSITE STYLESHEET
+========================================== */
+
