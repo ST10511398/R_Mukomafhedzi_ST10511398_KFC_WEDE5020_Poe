@@ -1,0 +1,9 @@
+
+# KFC Student Website - Robots.txt
+
+# Allow search engines to crawl the website
+User-agent: *
+Allow: /
+
+# Sitemap location
+Sitemap: https://www.yourwebsite.co.za/sitemap.xml
